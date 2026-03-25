@@ -22,7 +22,7 @@ jobs:
         run: cargo build --release --target wasm32-wasip1
 
       - name: Rename artifact
-        run: cp target/wasm32-wasip1/release/zj_session_bar.wasm zj-session-bar.wasm
+        run: cp target/wasm32-wasip1/release/zj-session-bar.wasm zj-session-bar.wasm
 
       - name: Create release
         uses: softprops/action-gh-release@v2

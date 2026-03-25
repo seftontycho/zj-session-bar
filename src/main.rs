@@ -68,7 +68,7 @@ impl ZellijPlugin for SessionBar {
         }
     }
 
-    fn render(&mut self, _rows: usize, cols: usize) {
+    fn render(&mut self, _rows: usize, _cols: usize) {
         if self.sessions.is_empty() {
             return;
         }
